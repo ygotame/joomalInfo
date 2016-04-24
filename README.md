@@ -17,3 +17,9 @@ Execute the command at root directory of Joomla :
 find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 755 {} \;
 ```
+### Get the file md5 signature
+Execute the command to the file that you want to know the md5sum info :
+```bash
+ md5sum /var/www/html/joomlal/index.php
+```
+One of the way to find out if the file was altered or not by hacker or some body else.
